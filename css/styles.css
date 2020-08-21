@@ -1,0 +1,49 @@
+.navbar-custom{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navbar-brand{
+  padding-left: 100px;
+}
+
+.navbar-collapse{
+  padding-right: 100px;
+}
+
+.column-left{
+  padding-left: 150px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.image-right{
+  height: 300px; 
+  width: 300px;
+}
+
+.outer-div{
+  display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media (min-width:0px) and (max-width: 767px) {
+   .navbar-brand {
+        padding-left: 15px;
+   }
+
+   .navbar-collapse{
+    padding-right: 15px;
+  }
+
+  .column-left{
+    padding: 30px;
+  }
+
+  .image-right{
+    height: 300px; 
+    width: 300px;
+    margin-top: 20px;
+  }
+}
