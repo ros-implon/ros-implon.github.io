@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/styles.css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;600;700;800;900&display=swap" rel="stylesheet">
-        <title>Prantik's Profile</title>
+        <title>Prantik | Data Science Portfolio</title>
     </head>
     <body>
         <header>
@@ -14,9 +14,9 @@
             </div>
             <nav>
                 <ul class="nav-links">
-                    <li><a href="#" class="nav-link">Home</a></li>
-                    <li><a href="#" class="nav-link">About</a></li>
-                    <li><a href="#" class="nav-link">Projects</a></li>
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
                 </ul>
                 <div class="burger">
                     <div class="line1"></div>
@@ -26,98 +26,37 @@
             </nav>
         </header>     
         
-        <main>
+        <main id="home">
             <div class="presentation">
                 <div class="intro">
                     <div class="intro-text">
                         <h4>Hi! I am <span class="name">Prantik.</span></h4>
                         <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            I'm a data scientist who loves turning data into actionable insights.
                         </p>
                     </div>
                     <div class="actions">
                         <button class="view-cv">View CV</button>
-                        <button class="view-gp">View Graphics Portfolio</button>
+                        <button class="view-projects">View Projects</button>
                     </div>
                 </div>
                 <div class="cover">
                     <img src="./images/profile_image.jpg" alt="profile_image">
                 </div>
             </div>
+            <section id="about" class="about">
+                <h2>About</h2>
+                <p>I enjoy exploring data, building models and communicating results through compelling visuals.</p>
+            </section>
+            <section id="projects" class="projects">
+                <h2>Projects</h2>
+                <ul>
+                    <li>Customer churn prediction using machine learning</li>
+                    <li>Interactive dashboards for sales analytics</li>
+                </ul>
+            </section>
         </main>
 
         <script src="./js/app.js"></script>
     </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Prantik's Profile</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/styles.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</head>
-<body>
-
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark navbar-custom">
-    
-        <a class="navbar-brand" href="#">ros_implon</a>
-      
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item px-3">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item px-3">
-                    <a class="nav-link" href="#">Experience</a>
-                </li>
-                <li class="nav-item px-3">
-                    <a class="nav-link" href="#">Projects</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <div class="container-fluid ">
-        <div class="row outer-div" >
-            <div class="col-sm-6 column-left" >
-                <h1>Hi! I am<br>
-                Prantik P Sarmah</h1>
-
-                <h5 style="max-width: 500px; padding-top: 30px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
-                <button type="button" class="btn btn-outline-primary" style="margin-top: 30px;">View CV</button>
-                <button type="button" class="btn btn-outline-primary" style="margin-top: 30px;">Graphics Design Portfolio</button>
-            </div>
-            <div class="col-sm-6 d-flex justify-content-center">
-                <img src="images/profile_image.jpg" class="rounded-circle image-right" alt="profile">
-            </div>
-        </div>
-    </div>
-
-</body>
-</html>
- -->
