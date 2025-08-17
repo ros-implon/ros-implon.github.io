@@ -95,7 +95,7 @@ nav{
   padding: 12px 20px 12px 20px;
 }
 
-.view-gp{
+.view-projects{
   background: transparent;
   border: 2px solid #fdd835;
   color: #fdd835;
@@ -114,6 +114,17 @@ nav{
   display: block;
   border-radius: 50%;
   animation: right 1.5s ease;
+}
+
+.about, .projects{
+  width: 80%;
+  margin: auto;
+  padding: 40px 0;
+}
+
+.projects ul{
+  list-style: disc;
+  padding-left: 20px;
 }
 
 .burger{
@@ -196,7 +207,7 @@ nav{
   .view-cv{
     margin: 15px 0 0 0;
   }
-  .view-gp{
+  .view-projects{
     margin: 15px 0 30px 0;
   }
 	.cover img {
@@ -233,52 +244,3 @@ nav{
 
 
 
-/* .navbar-custom{
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
-.navbar-brand{
-  padding-left: 100px;
-}
-
-.navbar-collapse{
-  padding-right: 100px;
-}
-
-.column-left{
-  padding-left: 150px;
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
-
-.image-right{
-  height: 300px; 
-  width: 300px;
-}
-
-.outer-div{
-  display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-@media (min-width:0px) and (max-width: 767px) {
-   .navbar-brand {
-        padding-left: 15px;
-   }
-
-   .navbar-collapse{
-    padding-right: 15px;
-  }
-
-  .column-left{
-    padding: 30px;
-  }
-
-  .image-right{
-    height: 300px; 
-    width: 300px;
-    margin-top: 20px;
-  }
-} */
